@@ -1,0 +1,76 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    
+    /* background: url('https:source.unsplash.com/collection/technology/1900×1200') no-repeat center center/cover; */
+    background: url('bg1.jpg') no-repeat center center/cover;
+    height: 100vh;
+
+
+}
+.container{
+    position: absolute;
+    width: 420px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    color: rgb(252, 254, 253);
+     background-color: rgba(0, 0, 0, 0.573); 
+    padding: 50px 10px;
+    border-radius: 7px;
+    display: grid;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    justify-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    border: #ffffff solid 1px;
+    backdrop-filter: blur(2px);
+  
+
+    
+}
+.container:hover{
+    box-shadow: 5px 5px 20px rgb(19, 19, 19);
+    backdrop-filter: blur(3px);
+  
+}
+h3{
+    font-size: 16px;
+    font-weight: 60;
+    text-align: center;
+    margin:3px;
+
+}
+input[type="text"]{
+    width: 250px;
+    font-weight: 150;
+    color: rgb(0, 0, 0);
+    padding: 7px 7px;
+    text-align: left;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    font-size: 20px;
+}
+button{
+    width: 80px;
+    padding: 10px 0px;
+    border-radius: 5px;
+    background-color: #0077ff;
+    color: #ffffff;
+    border: none;
+    font-size: 10px;
+    font-weight: 60;
+    margin-bottom: 30px;
+    outline: none;
+}
+p{
+    font-weight: 40;
+    font-size: 21px;
+
+}
